@@ -6,6 +6,7 @@ Progetto suddiviso in 3 packages:
 - Package per la gestione dei Dati
 
 Il server permette la memorizzazione delle email inviate fra utenti, permettendo la creazione di conversazioni.<br/>
+Il server funziona gestendo più richieste in contemporanea tramite i Threads.
 Il funzionamento dei client non è compromesso se il server viene spento. (utilizzo di cache)<br/>
 Il funzionamento dei client viene totalmente ripreso (possibilità di inviare/ricevere nuove email) una volta che il server viene fatto ripartire.<br/>
 L'invio e la gestione delle email è fatta tramite l'invio di classi serializzabili definite nel package della gestione dei Dati.<br/>
