@@ -1,0 +1,42 @@
+/* 
+    Created on : 23-nov-2018, 16.25.31
+    Author     : Christian
+    
+    File CSS per l'interfaccia del client mail'
+*/
+
+.color-primary-0 { color: #275B6D }	/* Main Primary color */
+.color-primary-1 { color: #678995 }
+.color-primary-2 { color: #4E7987 }
+.color-primary-3 { color: #0D4253 }
+.color-primary-4 { color: #033545 }
+
+.button {
+    -fx-text-fill: white;
+    /*-fx-font-family: "Arial Narrow";*/
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61A2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61A2B1);
+}
+
+.list-cell:hover {
+    -fx-background-color: linear-gradient(#c6e4eb, #a0d3de);
+}
+
+.list-cell:selected {
+    -fx-background-color: linear-gradient(#67b4c4, #3f94a5);
+    -fx-effect: innershadow( three-pass-box, rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );                           
+}
+
+/*nascondo le celle vuote*/
+.list-cell:empty {
+    visibility:hidden;
+}
+
+.style1 {
+    -fx-background-color: #FF0000;
+}
